@@ -1,4 +1,6 @@
 {
+  "spider": "./spider.jar;md5;b70250542ab31cb955f124bfa67eae36",
+  "wallpaper": "https://api.likepoems.com/img/bing",
   "sites": [
     {
       "key": "csp_非凡资源",
