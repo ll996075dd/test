@@ -2,7 +2,7 @@
   "sites": [
     {
       "key": "豆豆",
-      "name": "📺︎接口免费,禁止贩卖,关注公众号:『码点小干货』📺︎",
+      "name": "豆豆",
       "type": 3,
       "api": "csp_DouDou",
       "searchable": 0,
@@ -11,7 +11,7 @@
     },
     {
       "key": "csp_非凡资源",
-      "name": "影视软件合集:Q群『666406919』",
+      "name": "非凡资源",
       "type": 1,
       "api": "http://cj.ffzyapi.com/api.php/provide/vod/",
       "playurl": "json:http://jx.84jia.com/m3u8ts.php?url=",
@@ -745,66 +745,6 @@
       ]
     },
     {
-      "key": "js_6V",
-      "name": "🎥┃六维┃磁力",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/6V.js"
-    },
-    {
-      "key": "js_磁力熊",
-      "name": "🎥‍┃贝尔┃磁力",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/bear.js"
-    },
-    {
-      "key": "js_酷吧",
-      "name": "🎥┃酷吧┃磁力",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/kuba.js"
-    },
-    {
-      "key": "XYQH_电影港",
-      "name": "🎥┃港口┃磁力",
-      "type": 3,
-      "playerType": 1,
-      "api": "csp_XYQHiker",
-      "jar": "./lib/spider.txt;md5;A21EA6F5DD3B5F922B3A7F54D3BD0F16",
-      "ext": "./lib/港口.json"
-    },
-    {
-      "key": "csp_XYQHiker_‍dyx",
-      "name": "🎥┃宙磁┃磁力",
-      "type": 3,
-      "api": "csp_XYQHiker",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/dyg.json",
-      "jar": "./lib/spider.txt;md5;B880BBAD2845D16CFB86CCA0331B2621"
-    },
-    {
-      "key": "4KHDR",
-      "name": "🎥┃世界┃磁力",
-      "type": 3,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/4KHDR.js"
-    },
-    {
       "key": "短剧网",
       "name": "📽┃有趣┃短剧",
       "type": 3,
@@ -1023,115 +963,6 @@
       "ext": "./lib/哔哩直播.js"
     },
     {
-      "key": "csp_Bili_Meinvw",
-      "name": "😍┃扭团┃美女",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "jar": "./lib/duo.jar;md5;5C5116C70E15343433C8480C3B448408",
-      "ext": "./lib/meinv.json"
-    },
-    {
-      "key": "csp_Bili_Nvtuan",
-      "name": "😍┃妞妞┃美女",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "jar": "./lib/duo.jar;md5;5C5116C70E15343433C8480C3B448408",
-      "ext": "./lib/nvtuan.json"
-    },
-    {
-      "key": "短视频",
-      "name": "😍┃短视┃美女",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "jar": "./lib/duo.jar;md5;5C5116C70E15343433C8480C3B448408",
-      "ext": "./lib/短视频聚合.json"
-    },
-    {
-      "key": "csp_酷奇",
-      "name": "🎻┃酷奇┃音乐",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "jar": "./lib/duo.jar;md5;5C5116C70E15343433C8480C3B448408",
-      "ext": "./lib/酷奇MV.json"
-    },
-    {
-      "key": "MV_vod",
-      "name": "🎻┃咯咯┃音乐",
-      "type": 1,
-      "api": "https://mv.wogg.link/mv/vod",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "csp_Bili_MTV",
-      "name": "🎻┃哔哩┃音乐",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "jar": "./lib/duo.jar;md5;5C5116C70E15343433C8480C3B448408",
-      "ext": "./lib/mtv.json"
-    },
-    {
-      "key": "csp_Bili_Yinl2",
-      "name": "🎻┃音悦┃音乐",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "jar": "./lib/duo.jar;md5;5C5116C70E15343433C8480C3B448408",
-      "ext": "./lib/yinyue.json"
-    },
-    {
-      "key": "MV_vod",
-      "name": "🎻┃明星┃音乐",
-      "type": 1,
-      "api": "https://mv.wogg.link/mv/vod",
-      "style": {
-        "type": "oval"
-      },
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 0
-    },
-    {
-      "key": "csp_Bili_dashan",
-      "name": "💋┃搭讪┃教程",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "jar": "./lib/duo.jar;md5;5C5116C70E15343433C8480C3B448408",
-      "ext": "./lib/搭讪.json"
-    },
-    {
-      "key": "csp_Bili__dapei",
-      "name": "💋┃搭配┃教程",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "jar": "./lib/duo.jar;md5;5C5116C70E15343433C8480C3B448408",
-      "ext": "./lib/搭配.json"
-    },
-    {
       "key": "csp_Bili_youer",
       "name": "👶┃幼儿┃教育",
       "type": 3,
@@ -1174,36 +1005,6 @@
       "filterable": 1,
       "jar": "./lib/duo.jar;md5;5C5116C70E15343433C8480C3B448408",
       "ext": "./lib/gaozhong.json"
-    },
-    {
-      "key": "py_qie",
-      "name": "🏀┃企鹅┃体育",
-      "type": 3,
-      "api": "py_qie",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "ext": "./lib/qie.py"
-    },
-    {
-      "key": "csp_Bili_FBqx",
-      "name": "🏀┃球队┃体育",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "jar": "./lib/duo.jar;md5;5C5116C70E15343433C8480C3B448408",
-      "ext": "./lib/qiudui.json"
-    },
-    {
-      "key": "Bili",
-      "name": "🅱️┃哔哔┃戏曲",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "ext": "./lib/bili.json"
     },
     {
       "key": "csp_Bili",
@@ -1260,15 +1061,6 @@
       "jar": "./lib/duo.jar;md5;5C5116C70E15343433C8480C3B448408",
       "ext": "./lib/xiaopin.json"
     },
-    {
-      "key": "提示",
-      "name": "公众号：码点小干货",
-      "type": 3,
-      "api": "360",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    }
   ],
   "lives": [
     {
