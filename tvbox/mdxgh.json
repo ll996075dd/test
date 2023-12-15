@@ -1,8 +1,10 @@
 {
+  "spider": "https://files.zohopublic.com.cn/public/workdrive-public/download/uyv0t678c488189af47bb91dc108484d17431;md5;8a3584c3608a5412fb02a769ab3886bb",
+  "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
   "sites": [
     {
       "key": "豆豆",
-      "name": "豆豆",
+      "name": "🎟豆瓣┃12.8接口仅测试使用",
       "type": 3,
       "api": "csp_DouDou",
       "searchable": 0,
